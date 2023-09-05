@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+ --backgroundColor : linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(107,7,23,1) 0%, rgba(98,85,16,1) 0%, rgba(20,95,58,1) 18%, rgba(9,121,121,0.9094231442577031) 37%, rgba(142,37,196,1) 89%, rgba(109,24,209,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    background: var(--backgroundColor);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.container {
+  height:50vh;
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+button{
+    padding: 15px;
+    width: auto;
+    cursor: pointer;
+}
+
+.button{
+    width:auto;
+    margin:5px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+#next {
+    display: flex;
+    justify-content: center;
+    background: beige;
+    width: 50%;
+    padding: 11px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: aqua;
+}
